@@ -18,6 +18,6 @@ def separar_paginas_pdf(arquivo_origem, arquivo_destino, pagina_inicio, pagina_f
 
 
 # Exemplo de uso
-separar_paginas_pdf('pdf/entrada/python_book.pdf',
+separar_paginas_pdf('pdf/entrada/pa_ts.pdf',
                     'pdf/saida/paginas_separadas.pdf',
-                    0, 55)  # Separa as páginas 1 a 55
+                    25, 62)  # Separa as páginas 1 a 55
